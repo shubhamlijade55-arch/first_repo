@@ -1,0 +1,5 @@
+runtime: python39  # Specifies modern Python 3 platform runtime
+instance_class: F1
+handlers:
+- url: /.*
+  script: auto
